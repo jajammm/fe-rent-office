@@ -9,8 +9,9 @@ export default function OfficeCard({ office }: OfficeCardProps) {
         <div className="card">
             <div className="flex flex-col rounded-[20px] border border-[#E0DEF7] bg-white overflow-hidden">
                 <div className="thumbnail-container relative w-full h-[200px]">
-                    <p className="absolute top-5 left-5 w-fit rounded-full p-[6px_16px] bg-[#0D903A] font-bold text-sm leading-[21px] text-[#F7F7FD]">
-                        Popular
+                    <p className="absolute top-5 left-5 w-fit rounded-full p-[6px_16px] bg-[#074799] font-bold text-sm leading-[21px] text-[#F7F7FD]">
+                        {office.popular ? "Well-known" : "Less-known"}
+
                     </p>
                     <img
                         src={`${baseURL}/${office.thumbnail}`}
@@ -46,7 +47,7 @@ export default function OfficeCard({ office }: OfficeCardProps) {
                             <p className="font-semibold">{office.city.name}</p>
                         </div>
                         <div className="flex items-center justify-end gap-[6px]">
-                            <p className="font-semibold">4.5/5</p>
+                            <p className="font-semibold">{office.rating}/5</p>
                             <img
                                 src="/assets/images/icons/Star 1.svg"
                                 className="w-6 h-6"
@@ -58,19 +59,11 @@ export default function OfficeCard({ office }: OfficeCardProps) {
                     <div className="flex items-center justify-between">
                         <div className="flex items-center justify-end gap-[6px]">
                             <img
-                                src="/assets/images/icons/wifi.svg"
+                                src="/assets/images/icons/verify.svg"
                                 className="w-6 h-6"
                                 alt="icon"
                             />
-                            <p className="font-semibold">Fast-Connection</p>
-                        </div>
-                        <div className="flex items-center justify-end gap-[6px]">
-                            <img
-                                src="/assets/images/icons/security-user.svg"
-                                className="w-6 h-6"
-                                alt="icon"
-                            />
-                            <p className="font-semibold">Secure 100%</p>
+                            <p className="font-semibold">{office.featured_facility}</p>
                         </div>
                     </div>
                 </div>

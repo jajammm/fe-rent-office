@@ -34,7 +34,7 @@ export default function Browse() {
                         <div className="flex items-center gap-5">
                             <a
                                 href="#"
-                                className="flex items-center rounded-full p-[20px_26px] gap-3 bg-[#0D903A]"
+                                className="flex items-center rounded-full p-[20px_26px] gap-3 bg-[#074799]"
                             >
                                 <img
                                     src="/assets/images/icons/slider-horizontal-white.svg"
@@ -71,7 +71,7 @@ export default function Browse() {
                         />
                     </div>
                 </section>
-                <div className="flex flex-col pt-[150px] pb-10 px-[120px] gap-10 bg-[#0D903A]">
+                <div className="flex flex-col pt-[150px] pb-10 px-[120px] gap-10 bg-[#074799]">
                     <div className="logo-contianer flex items-center justify-center flex-wrap max-w-[1130px] h-[38px] mx-auto gap-[60px]">
                         <img src="/assets/images/logos/TESLA.svg" alt="clients logo" />
                         <img src="/assets/images/logos/Libra 2.svg" alt="clients logo" />

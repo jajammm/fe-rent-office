@@ -1044,9 +1044,9 @@ video {
   background-color: rgb(0 9 41 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#0D903A\] {
+.bg-\[\#074799\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(13 144 58 / var(--tw-bg-opacity));
+  background-color: rgb(7 71 153 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -1290,9 +1290,9 @@ video {
   color: rgb(0 9 41 / var(--tw-text-opacity));
 }
 
-.text-\[\#0D903A\] {
+.text-\[\#074799\] {
   --tw-text-opacity: 1;
-  color: rgb(13 144 58 / var(--tw-text-opacity));
+  color: rgb(7 71 153 / var(--tw-text-opacity));
 }
 
 .text-\[\#F7F7FD\] {
@@ -1367,9 +1367,9 @@ body{
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
 }
 
-.focus-within\:ring-\[\#0D903A\]:focus-within {
+.focus-within\:ring-\[\#074799\]:focus-within {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(13 144 58 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(7 71 153 / var(--tw-ring-opacity));
 }
 
 .\[\&\:\:-webkit-calendar-picker-indicator\]\:absolute::-webkit-calendar-picker-indicator {
