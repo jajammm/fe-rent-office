@@ -157,6 +157,7 @@ export default function BookOffice() {
             </div>
             <form
                 onSubmit={handleSubmit}
+                method="POST"
                 className="relative flex justify-center max-w-[1130px] mx-auto gap-[30px] mb-20 z-20"
             >
                 <div className="flex flex-col shrink-0 w-[500px] h-fit rounded-[20px] border border-[#E0DEF7] p-[30px] gap-[30px] bg-white">
